@@ -1,0 +1,39 @@
+# 视频文件 - 体积大，不入库
+videos/
+
+# 浏览器自动化缓存
+.playwright-cli/
+
+# 计划/交接文件
+.planning/
+
+# 课程字幕/转写文本
+text/
+
+# 用户敏感信息 - 绝不能入库
+cookies.txt
+*.cookies
+*_cookies.txt
+
+# 临时文件
+__tmp_*.mp4
+__tmp_*
+*.tmp
+*.bak
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+*~
+
+# PowerShell artifacts
+*.ps1xml
+*.psc1
+*.psd1
+*.psm1
